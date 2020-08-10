@@ -11,7 +11,7 @@
     "prettier"
   ],
   "main": "index.js",
-  "repository": "git@github.com:wesbos/eslint-config-wesbos.git",
+  "repository": "git@github.com:skykit-scottludtke/eslint-config-wesbos.git",
   "author": "Wes bos <wes@wesbos.com>",
   "license": "MIT",
   "peerDependencies": {
@@ -43,5 +43,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
